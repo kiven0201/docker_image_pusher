@@ -1,1 +1,2 @@
 buildkite/puppeteer:latest
+codeskyblue/gohttpserver
