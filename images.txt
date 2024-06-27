@@ -1,3 +1,4 @@
 buildkite/puppeteer:latest
 codeskyblue/gohttpserver
 golang:1.16
+debian:stable
