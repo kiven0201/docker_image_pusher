@@ -5,3 +5,4 @@ debian:stable
 python:3.11-slim-buster
 python:3.11.9-alpine
 python:3.11.9
+python:3.11.0
