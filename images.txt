@@ -2,3 +2,4 @@ buildkite/puppeteer:latest
 codeskyblue/gohttpserver
 golang:1.16
 debian:stable
+python:3.11-slim-buster
