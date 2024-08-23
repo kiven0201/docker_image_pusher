@@ -9,3 +9,4 @@ python:3.11.0
 rancher/shell:v0.1.21
 node:20
 node:20-alpine
+node:18.16
