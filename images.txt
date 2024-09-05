@@ -10,3 +10,4 @@ rancher/shell:v0.1.21
 node:20
 node:20-alpine
 node:18.16
+busybox:latest
