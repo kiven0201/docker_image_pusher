@@ -1,1 +1,1 @@
-milvusdb/milvus:v2.4.5
+18.20.2-alpine
