@@ -1,1 +1,1 @@
-lampnick/doctron
+python:3.12.0
