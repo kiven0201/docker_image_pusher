@@ -3,3 +3,4 @@ rancher/gitjob:v0.8.13
 rancher/mirrored-cluster-api-controller:v1.4.4
 rancher/fleet-agent:v0.8.6
 rancher/kubectl:v1.20.2
+gitlab/gitlab-runner:alpine-v13.12.0
