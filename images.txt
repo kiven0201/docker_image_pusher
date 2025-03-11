@@ -7,3 +7,4 @@ gitlab/gitlab-runner:alpine-v13.12.0
 gitlab/gitlab-runner-helper:x86_64-7a6612da
 apacherocketmq/rocketmq:4.5.0
 styletang/rocketmq-console-ng
+bitnami/kubectl:latest
