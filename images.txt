@@ -1,2 +1,2 @@
-xuxueli/xxl-job-admin:2.4.0
-mysql:8
+golang:1.15.2-alpine
+lampnick/runtime:chromium-alpine
