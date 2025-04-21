@@ -1,2 +1,1 @@
-golang:1.15.2-alpine
-lampnick/runtime:chromium-alpine
+mysql:8.0-alpine
