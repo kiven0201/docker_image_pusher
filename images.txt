@@ -1,1 +1,1 @@
-mysql:8.0-alpine
+mysql:8.0
