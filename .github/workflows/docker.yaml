@@ -24,7 +24,7 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Build and push image Aliyun
+    - name: Build and push image  zhenxuan Aliyun
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         while IFS= read -r line; do
@@ -50,7 +50,9 @@ jobs:
           echo "docker push $new_image"
           docker push $new_image
         done < images.txt
-
+        
+    - name: Build and push image Lingshi Aliyun
+      run: |
         docker login -u $ALIYUN_LS_REGISTRY_USER -p $ALIYUN_LS_REGISTRY_PASSWORD $ALIYUN_REGISTRY
         while IFS= read -r line; do
           [[ -z "$line" ]] && continue
