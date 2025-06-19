@@ -1,4 +1,3 @@
 python:3.10.5-slim
 node:18
-develop-py
 nginx:alpine
