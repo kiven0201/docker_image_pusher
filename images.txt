@@ -1,7 +1,2 @@
-redis:7.0-bullseye
-postgres:16.3-bullseye
-jumpserver/core:v4.10.7-ce
-jumpserver/koko:v4.10.7-ce
-jumpserver/lion:v4.10.7-ce
-jumpserver/chen:v4.10.7-ce
-jumpserver/web:v4.10.7-ce
+mongo:5.0.14
+yapipro/yapi:1.9.5
