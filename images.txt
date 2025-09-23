@@ -1,2 +1,1 @@
-mongo:5.0.14
-yapipro/yapi:1.9.5
+rancher/mirrored-cluster-api-controller
