@@ -1,1 +1,1 @@
-logstash:7.10.1
+apache/rocketmq-exporter:latest
