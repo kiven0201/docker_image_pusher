@@ -1,2 +1,1 @@
-apache/rocketmq-exporter:latest
-
+bladex/sentinel-dashboard:1.8.6
