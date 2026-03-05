@@ -1,1 +1,3 @@
-eclipse-temurin:21-jre-jammy
+oven/bun:latest
+golang:alpine
+debian:bookworm-slim
