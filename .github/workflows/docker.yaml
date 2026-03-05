@@ -14,6 +14,7 @@ env:
   ALIYUN_LS_NAME_SPACE: "${{ secrets.ALIYUN_LS_NAME_SPACE }}"
   ALIYUN_LS_REGISTRY_USER: "${{ secrets.ALIYUN_LS_REGISTRY_USER }}"
   ALIYUN_LS_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_LS_REGISTRY_PASSWORD }}"
+  ALIYUN_LSZX_REGISTRY: "${{ secrets.ALIYUN_LSZX_REGISTRY }}"
   ALIYUN_LSZX_NAME_SPACE: "${{ secrets.ALIYUN_LSZX_NAME_SPACE }}"
   ALIYUN_LSZX_REGISTRY_USER: "${{ secrets.ALIYUN_LSZX_REGISTRY_USER }}"
   ALIYUN_LSZX_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_LSZX_REGISTRY_PASSWORD }}"
@@ -86,7 +87,7 @@ jobs:
 
     - name: Build and push image Lingshizhenxuen Aliyun
       run: |
-        docker login -u $ALIYUN_LSZX_REGISTRY_USER -p $ALIYUN_LSZX_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+        docker login -u $ALIYUN_LSZX_REGISTRY_USER -p $ALIYUN_LSZX_REGISTRY_PASSWORD $ALIYUN_LSZX_REGISTRY
         while IFS= read -r line; do
           [[ -z "$line" ]] && continue
           echo "docker pull $line"
