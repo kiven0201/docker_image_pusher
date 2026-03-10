@@ -1,1 +1,1 @@
-atlassian/confluence-server:7.13.3
+atlassian/confluence-server:7.13.0-jdk11
