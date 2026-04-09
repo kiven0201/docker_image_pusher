@@ -1,1 +1,1 @@
-atlassian/confluence-server:7.13.0-jdk11
+gradle:7.5.1-jdk8
