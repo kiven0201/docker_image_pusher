@@ -1,1 +1,1 @@
-gradle:7.5.1-jdk8
+eclipse-temurin:8-jre-jammy
