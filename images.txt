@@ -1,1 +1,1 @@
-wmq001/chromium-runtime-alpine:3.22.5
+chromium-runtime-alpine:3.22.5
